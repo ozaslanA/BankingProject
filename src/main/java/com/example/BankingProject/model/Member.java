@@ -17,8 +17,8 @@ import java.util.List;
 @Entity
 @Table(name = "member",schema = "bank")
 public class Member implements UserDetails {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+       @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String email;
     private String password;
